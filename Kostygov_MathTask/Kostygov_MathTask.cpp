@@ -1,10 +1,7 @@
 ﻿#include <iostream>
 #include <string>
 using namespace std;
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+
 bool User_Inpyt(string input)
 {
     if (input.empty()) return false;
@@ -17,4 +14,35 @@ bool User_Inpyt(string input)
 		return false;
 	}
 	return true;
+}
+int CalcRectangleArea(int NumberA, int NumberB)
+{
+	return NumberA * NumberA;
+}
+int main()
+{
+	string str_input;
+
+	cout << "Введите длину стороны А: "<< endl;
+	getline(cin, str_input);
+
+	while (!User_Inpyt(str_input))
+	{
+		cout << "Повторите попытку!";
+		getline(cin, str_input);
+	}
+	int NumberA = stoi(str_input);
+
+	cout << "Введите длину стороны B: " << endl;
+	getline(cin, str_input);
+
+	while (!User_Inpyt(str_input))
+	{
+		cout << "Повторите попытку!";
+		getline(cin, str_input);
+	}
+	int NumberB = stoi(str_input);
+
+	int RenctangleArea = CalcRectangleArea(NumberA, NumberB);
+	cout << "Площадь прямоугольника: " << RenctangleArea << endl;
 }
