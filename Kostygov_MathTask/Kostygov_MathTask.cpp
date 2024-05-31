@@ -17,7 +17,7 @@ bool User_Inpyt(string input)
 }
 int CalcRectangleArea(int NumberA, int NumberB)
 {
-	return NumberA * NumberA;
+	return NumberA * NumberB + 100;
 }
 int main()
 {
