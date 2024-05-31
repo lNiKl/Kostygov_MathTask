@@ -21,6 +21,7 @@ int CalcRectangleArea(int NumberA, int NumberB)
 }
 int main()
 {
+	setlocale(LC_ALL, "Russian");
 	string str_input;
 
 	cout << "Введите длину стороны А: "<< endl;
