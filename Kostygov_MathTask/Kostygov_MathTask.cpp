@@ -8,6 +8,7 @@ bool User_Inpyt(string input)
 	try
 	{
 		int number = stoi(input);
+		if (number <= 0) return false;
 	}
 	catch (...)
 	{
@@ -17,7 +18,7 @@ bool User_Inpyt(string input)
 }
 int CalcRectangleArea(int NumberA, int NumberB)
 {
-	return NumberA * NumberB + 10;
+	return NumberA * NumberB;
 }
 int main()
 {
