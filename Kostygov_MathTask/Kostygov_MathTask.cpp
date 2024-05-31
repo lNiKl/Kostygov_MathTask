@@ -17,7 +17,7 @@ bool User_Inpyt(string input)
 }
 int CalcRectangleArea(int NumberA, int NumberB)
 {
-	return NumberA * NumberB + 100;
+	return NumberA * NumberB;
 }
 int main()
 {
@@ -29,7 +29,7 @@ int main()
 
 	while (!User_Inpyt(str_input))
 	{
-		cout << "Повторите попытку!";
+		cout << "Повторите попытку!" << endl;
 		getline(cin, str_input);
 	}
 	int NumberA = stoi(str_input);
@@ -39,7 +39,7 @@ int main()
 
 	while (!User_Inpyt(str_input))
 	{
-		cout << "Повторите попытку!";
+		cout << "Повторите попытку!" << endl;
 		getline(cin, str_input);
 	}
 	int NumberB = stoi(str_input);

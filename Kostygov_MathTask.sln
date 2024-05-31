@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kostygov_MathTask", "Kostygov_MathTask\Kostygov_MathTask.vcxproj", "{AC488DB5-1C04-44B1-816E-C417381DE5CB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KostygovMathTaskClassLibraryTests", "Kostygov_MathTaskClassLibraryTests\Kostygov_MathTaskClassLibraryTests.vcxproj", "{E9EC19CB-F3BF-4758-8B9E-2689352F1F7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{AC488DB5-1C04-44B1-816E-C417381DE5CB}.Release|x64.Build.0 = Release|x64
 		{AC488DB5-1C04-44B1-816E-C417381DE5CB}.Release|x86.ActiveCfg = Release|Win32
 		{AC488DB5-1C04-44B1-816E-C417381DE5CB}.Release|x86.Build.0 = Release|Win32
+		{E9EC19CB-F3BF-4758-8B9E-2689352F1F7F}.Debug|x64.ActiveCfg = Debug|x64
+		{E9EC19CB-F3BF-4758-8B9E-2689352F1F7F}.Debug|x64.Build.0 = Debug|x64
+		{E9EC19CB-F3BF-4758-8B9E-2689352F1F7F}.Debug|x86.ActiveCfg = Debug|Win32
+		{E9EC19CB-F3BF-4758-8B9E-2689352F1F7F}.Debug|x86.Build.0 = Debug|Win32
+		{E9EC19CB-F3BF-4758-8B9E-2689352F1F7F}.Release|x64.ActiveCfg = Release|x64
+		{E9EC19CB-F3BF-4758-8B9E-2689352F1F7F}.Release|x64.Build.0 = Release|x64
+		{E9EC19CB-F3BF-4758-8B9E-2689352F1F7F}.Release|x86.ActiveCfg = Release|Win32
+		{E9EC19CB-F3BF-4758-8B9E-2689352F1F7F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
